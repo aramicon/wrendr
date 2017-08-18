@@ -1,0 +1,48 @@
+#This is the subtitles text file, created by Donal Kelly, August 2017
+
+slide 1, basic text
+
+A
+
+B C
+
+ D E F G H
+
+#IMAGE http://www.lucacicca.it/wp-images/Elliott-Erwitt.jpg
+
+Hamlet: To be, or not to be- that is the question: 
+Whether 'tis nobler in the mind to suffer 
+The slings and arrows of outrageous fortune 
+Or to take arms against a sea of troubles, 
+And by opposing end them. To die- to sleep- 
+No more; and by a sleep to say we end 
+The heartache, and the thousand natural shocks 
+That flesh is heir to. 'Tis a consummation 
+Devoutly to be wish'd.
+
+#BLANK
+
+#Should be a blank slide?
+
+#chords
+
+           [[B]]        
+There is a girl in New York CIty
+                                       [[A]]
+Who calls herself the human trampoline
+    [[C#m]]
+And sometimes when I'm falling, flying
+ 
+Or tumbling in turmoil I say
+[[B]]
+Oh, so this is what she means.
+                              [[E]]
+She means we're bouncing into Graceland.
+ 
+And I see losing love
+                         [[A]]
+Is like a window in your heart:
+                      [[C#m]]        
+Everybody sees you're blown apart
+          [[B]]            
+Everybody feels the wind blow.

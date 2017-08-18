@@ -1,0 +1,56 @@
+<html>
+<head>
+	<title>Wrendr SLIDE VIEWER</title>
+	<script type="text/javascript" src = "jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src = "director_functions.js"></script>
+	<link rel="stylesheet" href = "directory_styles.css"/>
+</head>
+<body>
+	<h1>Wrendr Slide Viewer</h1>
+	<p>Welcome to the slides Viewer. This viewer will load slides text from a simple text file and allow you to move through these slides on display windows manually.</p>
+	<div class="instructionsHeader">Instructions</h2></div>
+	<div class="instructions">
+		<p>
+			<ul>
+				<li>Select a text file containing your slides using the "Choose slides File" button</li>
+				<li>Open a display window</li>
+				<li>Double-Click on a slide to display it</li>
+				<li>Move through the text slides using the NEXT and PREVIOUS arrows</li>
+			</ul>
+		</p>
+	</div>
+
+	</p>
+	<form name="uploadForm" class= "uploadForm">
+	
+		<input id="uploadInput" type="file" value = "Choose slides File" class = "button" name="myFiles" multiple>
+		<label for="uploadInput"> Select a slides text file to upload</label>
+		
+		<div class="fileInfo">Selected slides file: <span id="fileName">0</span>; file size: <span id="fileSize">0</span></div>
+		
+	
+	</form>
+	<div id="slidesLoadedInfo"></div>
+	<div id="displayWindowOptions">
+	<p>Display Window Options </p>
+	
+	Font Size:
+	<select id = "fontSizeOption">
+	  <option value="maximize_each_slide">Maximize on each slide</option>
+	  <option value="maximize_biggest_slide">Maximize for biggest slide</option>
+	  <option value="default">Default font size</option>	 
+	</select>
+	</div>
+	
+	<input class="button" type="submit" name="openDisplayButton" id="openDisplayButton" value="Open Display Window"></input>
+	<span id = "displayWindowInfo" >NO DISPLAY WINDOW OPEN</span>
+	<div id="control_panel">
+		<div id = "previous_button" href="#" class="previous">&laquo; Previous</div>
+		<div id = "control_panel_slide_display" class = "control_panel_slide_display">DOUBLE CLICK A SLIDE TO DISPLAY</div>
+		<div id = "control_panel_slide_info_display" class = "control_panel_slide_info_display">0/0</div>
+		<div id = "next_button" href="#" class="next">Next &raquo;</div>
+	</div>
+	<div id="slidesDisplayArea"></div>
+
+</body>
+</html>
